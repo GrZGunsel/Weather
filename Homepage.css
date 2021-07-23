@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
+* {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+}
+#body {
+  display: flex;
+  background-image: url("./Image/marek-szturc-4CDdd1RCt6w-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
+}
+.left-container {
+  width: 70%;
+  padding: 4% 6%;
+}
+.left-container .maincontent {
+  height: 60vh;
+}
+.left-container .maincontent h1 {
+  font-size: 18px;
+}
+.left-container .temperature {
+  word-spacing: 4px;
+  display: flex;
+  color: white;
+}
+.left-container .temperature h1 {
+  font-size: 120px;
+  font-weight: 600;
+}
+.left-container .temperature .city {
+  margin-left: 10px;
+  padding-top: 45px;
+  font-size: 35px;
+  font-weight: 400;
+}
+.left-container .temperature .city p {
+  font-size: 14px;
+}
+.left-container .temperature .weather {
+  padding-top: 65px;
+  margin-left: 10px;
+  font-size: 24px;
+}
+.left-container .temperature .weather i {
+  font-size: 45px;
+}
+.right-container {
+  width: 30%;
+  background-color: rgba(0, 0, 0, 0.253);
+  backdrop-filter: blur(40px);
+}
+.right-container .searchbox {
+  display: flex;
+  justify-content: space-between;
+}
+
+.right-container .searchbox input[type="text"] {
+  outline: none;
+  background: none;
+  border: none;
+  margin-left: 6%;
+  margin-top: 8%;
+  border-bottom: 1px solid white;
+  padding: 0% 2%;
+  font-size: 16px;
+  color: white;
+}
+
+.right-container .searchbox input[type="text"]::placeholder {
+  color: white;
+  opacity: 0.5;
+}
+
+.right-container .searchbox button {
+  border: none;
+  outline: none;
+  color: white;
+  background: rgb(201, 201, 201);
+  padding: 6% 8%;
+}
+
+.right-container .searchbox i {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.right-container .content {
+  margin: 0% 7%;
+  padding: 10% 0%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.699);
+}
+
+.right-container .content ul {
+  margin-top: 6%;
+  list-style-type: none;
+  color: white;
+  padding: 0;
+}
+.right-container .content ul li {
+  padding: 2% 0%;
+}
+.right-container .content h1 {
+  margin-bottom: 50px;
+  font-size: 20px;
+}
+.right-container .content .weatherdetail {
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+}
+.right-container .content .weatherdetail p {
+  margin: 2% 0%;
+}
